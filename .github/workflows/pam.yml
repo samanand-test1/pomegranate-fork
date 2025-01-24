@@ -1,0 +1,8 @@
+on:
+  push:
+
+jobs:
+  firstjob:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "hello pam
